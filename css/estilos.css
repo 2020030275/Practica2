@@ -5,6 +5,11 @@
     margin: 0 auto;
 }
 
+small{
+    display: block; 
+    margin-left: 3em;
+    margin-top: 2%;
+}
 
 /* Selector de ID*/
 
@@ -16,19 +21,23 @@
 }
 
 #encabezado{
-    height: 15%;
-    background-color: rgb(241, 241, 241);
-    margin: 1em;
+    display: grid;
+    height: 14%;
+    background-color: rgba(108, 97, 212, 0.973);
+    margin: 0;
+    padding-top: 30px;
+    color: white    ;
+
 }
 
 #menu{
-    height: 2%;
+    height: 4%;
     background-color: darkgray;
-    margin: 1em auto;
+    margin: 0   ;
 }
 
 #contenido{
-    height: 70%;
+    height: 75%;
     width: 61%;
     background-color: darksalmon;
     margin: 0.5em;
@@ -36,19 +45,23 @@
 }
 
 #fueraSeccion{
-    height: 70%;
+    height: 75%;
     width: 36%;
-    background-color: rgb(226, 62, 21);
+    background-color: rgb(46, 12, 172);
     margin: 0.5em;
     float: right;
 }
 
 #pie{
+    
+    text-align: center;
     height: 5%;
     background-color: indigo;
     border-radius: 1em;
-    margin: 1.5em;
+    color: white;
+    margin-top:  0.5em;
 }
+
 
 /* Selector de clase*/
 
@@ -65,9 +78,16 @@
     text-align: center;
     background: #333;
     color: white;
-    margin: auto 3em;
+    margin: 0;
 
 
+}
+
+.encabezado_side{
+    text-align: center;
+    background: rgb(168, 7, 7);
+    color: white;
+    margin: 0;
 }
 
 
@@ -75,19 +95,41 @@
     display: block;
     border: 1px solid #ddd;
     margin-left: 4%;
+    margin-top: 1%;
     border-radius: 4px;
     width: 150px;
     
 
 }
 
+.sideImg{
+    display: center;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    width: 300px;
+    height: 150x;
+    margin-top: 2%;
+}
+
+.txtSide{
+    text-align: justify;
+    font-family: tahoma;
+    font-size: 12;
+    margin-left: 15px;
+    margin-right: 15px;
+    padding-top: 10px;
+    color: white;
+}
+
 ul{
+    padding-top: 0.5em;
     text-align: center;
 }
 
 li{
     display: inline;
-    padding-left: 6px;
-    padding-right: 6px;
+    
+    padding-left: 2em;
+    padding-right: 2em;
     text-align: center;
 }
